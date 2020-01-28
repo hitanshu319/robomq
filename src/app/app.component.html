@@ -1,1 +1,4 @@
-<app-table></app-table>
+<h1>Assignmnent 2 on angular</h1>
+<app-table-create (tableCreated)="onTableData($event)"> </app-table-create>
+<app-table-list [getTables]="storedTableData"></app-table-list>
+

@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'lab2';
+  storedTableData = [];
+  onTableData(getTable) {
+    this.storedTableData.push(getTable);
+  }
 }
